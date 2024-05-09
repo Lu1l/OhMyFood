@@ -1,0 +1,12 @@
+.background{
+    padding-top: 0.1rem;
+    padding-bottom: 0.1rem;
+    margin-top: 1rem;   
+    background-color: lightgrey;
+    &.background2{  
+        background-color: rgb(233, 233, 233);
+    }
+    &.dark_grey{    
+        background-color: rgb(66, 66, 66);
+    }
+}

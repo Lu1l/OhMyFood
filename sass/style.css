@@ -1,0 +1,63 @@
+* {
+  font-family: "Raleway", sans-serif;
+}
+
+.btn {
+  padding: 15px;
+  border: none;
+  width: 250px;
+  background-color: lightgrey;
+  color: black;
+  border-radius: 15px;
+  margin-bottom: 0.1rem;
+}
+.btn.violet {
+  background-color: #9747FF;
+}
+.btn.white {
+  color: white;
+}
+
+.background {
+  padding-top: 0.1rem;
+  padding-bottom: 0.1rem;
+  margin-top: 1rem;
+  background-color: lightgrey;
+}
+.background.background2 {
+  background-color: rgb(233, 233, 233);
+}
+.background.dark_grey {
+  background-color: rgb(66, 66, 66);
+}
+
+.nav-logo {
+  display: flex;
+  justify-content: center;
+}
+
+#logo-img {
+  display: flex;
+  width: 50%;
+  padding-top: 1rem;
+  justify-content: center;
+}
+
+.img-menu {
+  width: 100%;
+  height: 260px;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+h2 {
+  text-align: center;
+}
+
+h3 {
+  text-align: left;
+}
+
+.containter {
+  text-align: center;
+}/*# sourceMappingURL=style.css.map */

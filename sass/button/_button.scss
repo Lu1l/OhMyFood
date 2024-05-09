@@ -1,0 +1,17 @@
+.btn {
+    padding: 15px;
+    border: none;
+    width: 250px;
+    background-color: lightgrey;
+    color: black;
+    border-radius: 15px;
+    margin-bottom: 0.1rem;
+  
+    &.violet {
+      background-color: #9747FF;
+    }
+    &.white { 
+      color: white;
+    }
+   
+  }
