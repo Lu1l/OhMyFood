@@ -5,22 +5,12 @@
   @import "./background/background";
   @import "./nav/nav";
   @import "./images/menu";
+  @import "./base/typo";
+  @import "./layout/form";
 
-  h2 {
-    text-align: center;
-  }
-
-  h3 {
-    text-align: left;
-  }
-
-  .containter {
-    text-align: center;
-  }
+  
 
 @media (min-width: 320px) {
   
-
-  
-  
 }
+

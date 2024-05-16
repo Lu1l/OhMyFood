@@ -36,11 +36,26 @@
   justify-content: center;
 }
 
-#logo-img {
+.logo-img {
   display: flex;
   width: 50%;
   padding-top: 1rem;
   justify-content: center;
+}
+.logo-img.margin-left {
+  margin-left: -5em;
+}
+.logo-img.width {
+  width: 100%;
+}
+
+.back {
+  display: flex;
+  width: 5%;
+  padding-top: 1rem;
+}
+.back.margin-left {
+  margin-left: 0.1em;
 }
 
 .img-menu {
@@ -55,6 +70,19 @@ h2 {
 }
 
 h3 {
+  text-align: left;
+}
+
+.para {
+  padding-top: 0.1rem;
+  padding-bottom: 0.1rem;
+  margin-top: 1rem;
+  background-color: lightgrey;
+}
+.para.center {
+  text-align: center;
+}
+.para.left {
   text-align: left;
 }
 
