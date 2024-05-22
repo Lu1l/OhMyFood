@@ -22,13 +22,16 @@
   padding-top: 0.1rem;
   padding-bottom: 0.1rem;
   margin-top: 1rem;
-  background-color: lightgrey;
+  background-color: #EAEAEA;
 }
 .background.background2 {
   background-color: rgb(233, 233, 233);
 }
 .background.dark_grey {
-  background-color: rgb(66, 66, 66);
+  background-color: #353535;
+}
+.background.red {
+  background-color: red;
 }
 
 .nav-logo {
@@ -61,9 +64,12 @@
 
 .img-menu {
   width: 100%;
-  height: 260px;
+  height: 200px;
   -o-object-fit: cover;
      object-fit: cover;
+  background-color: white;
+  border-top-right-radius: 20px;
+  border-top-left-radius: 20px;
 }
 
 h2 {
@@ -78,7 +84,6 @@ h3 {
   padding-top: 0.1rem;
   padding-bottom: 0.1rem;
   margin-top: 1rem;
-  background-color: lightgrey;
 }
 .para.center {
   text-align: center;
@@ -86,7 +91,26 @@ h3 {
 .para.left {
   text-align: left;
 }
+.para.margin-left {
+  margin-left: 0.5em;
+}
+.para.white {
+  color: white;
+}
+
+.white {
+  color: white;
+}
+
+.margin-left {
+  margin-left: 0.5em;
+}
 
 .containter {
   text-align: center;
+}
+
+.card {
+  background-color: white;
+  border-radius: 20px;
 }/*# sourceMappingURL=style.css.map */
