@@ -97,20 +97,28 @@
   background-color: white;
   border-top-right-radius: 20px;
   border-top-left-radius: 20px;
+  text-decoration: none;
 }
 
 h2 {
   text-align: center;
+  text-decoration: none;
+}
+
+a {
+  text-decoration: none;
 }
 
 h3 {
   text-align: left;
+  text-decoration: none;
 }
 
 .para {
   padding-top: 0.1rem;
   padding-bottom: 0.1rem;
   margin-top: 1rem;
+  text-decoration: none;
 }
 .para.center {
   text-align: center;
@@ -142,5 +150,10 @@ h3 {
   border-radius: 20px;
 }
 .card.margin-top {
-  margin-top: -0.9em;
+  margin-top: -50px;
+}
+
+.floating-menu {
+  position: relative;
+  margin-top: -10%;
 }/*# sourceMappingURL=style.css.map */

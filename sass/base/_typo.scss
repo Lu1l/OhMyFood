@@ -1,15 +1,22 @@
 h2 {
     text-align: center;
+    text-decoration: none;
+  }
+
+  a{
+    text-decoration: none;
   }
 
   h3 {
     text-align: left;
+    text-decoration: none;
   }
 
   .para{
     padding-top: 0.1rem;
     padding-bottom: 0.1rem;
-    margin-top: 1rem;   
+    margin-top: 1rem;
+    text-decoration: none;   
     &.center{  
         text-align: center;
     }
