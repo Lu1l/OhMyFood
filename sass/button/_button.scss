@@ -1,7 +1,7 @@
 .btn {
     padding: 15px;
     border: none;
-    width: 250px;
+    width: 300px;
     background-color: lightgrey;
     color: black;
     border-radius: 15px;
@@ -15,5 +15,15 @@
     }&.left{
       text-align: left;
     }
+    &.round{
+      border-radius: 30px;
+    }
+    &.btn-width{
+      width:200px;
+    } 
+    
    
   }
+
+
+  
