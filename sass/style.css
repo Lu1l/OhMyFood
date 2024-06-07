@@ -1,4 +1,3 @@
-@charset "UTF-8";
 * {
   font-family: "Raleway", sans-serif;
 }
@@ -340,50 +339,4 @@ h4 {
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   cursor: pointer;
-}
-
-.checkbox {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  width: 100%;
-  height: 5vh;
-}
-
-/*      CHECKBOX         */
-input[type=checkbox] {
-  display: none;
-}
-
-input[type=checkbox] + label {
-  position: relative;
-  padding-left: 35px;
-  font-size: 16px;
-}
-
-input[type=checkbox] + label:before {
-  content: "🖤";
-  top: -11px;
-  left: -8px;
-  border: 1px solid transparent;
-  padding: 10px;
-  border-radius: 3px;
-  display: block;
-  position: absolute;
-  transition: 0.5s ease;
-}
-
-input[type=checkbox]:checked + label:before {
-  border: 1px solid transparent;
-  background-color: transparent;
-}
-
-input[type=checkbox]:checked + label:after {
-  content: "💛";
-  font-size: 18px;
-  position: absolute;
-  top: -1px;
-  left: 1px;
-  color: violet;
-  transition: 0.5s ease;
 }/*# sourceMappingURL=style.css.map */
