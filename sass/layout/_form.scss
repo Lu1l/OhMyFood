@@ -1,5 +1,7 @@
 .containter {
     text-align: center;
+    margin: 0 auto;
+    padding: 20px;
   }
   .card {
     background-color: white;
@@ -16,4 +18,21 @@
   .containter-heart{
     display: flex;
     justify-content: space-between;
+  }
+
+  .menu-space{
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .location {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    height: 50px;
+    background-color: #eaeaea;
+  }
+  .location i {
+    padding-right: 20px;
   }

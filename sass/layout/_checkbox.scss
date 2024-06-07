@@ -1,5 +1,4 @@
 .checkbox{
-    position: float;
     display: flex;
 	justify-content: center;
 	align-items: center;
@@ -17,7 +16,6 @@ input[type="checkbox"] {
 input[type="checkbox"] + label {
     position: relative;
     padding-left: 35px;
-    display: inline-block;
     font-size: 16px;
 }
  
@@ -46,6 +44,6 @@ input[type="checkbox"]:checked + label:after {
     position: absolute;
     top: -1px;
     left: 1px;
-	color: gold;
+	color: violet;
 	transition:  .5s ease;
 }

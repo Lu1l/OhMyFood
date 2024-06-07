@@ -26,44 +26,49 @@
   }
 }
 
-/*.loader {
-  width: 48px;
-  height: 48px;
-  border-radius: 50%;
-  display: inline-block;
-  position: relative;
-  border: 10px solid;
-  box-sizing: border-box;
-  animation: animloader 1s linear infinite alternate;
+@keyframes fadein {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
 }
-@keyframes animloader {
+@keyframes fadeout {
+  from {
+    opacity: 1;
+  }
+  to {
+    opacity: 0;
+    position: absolute;
+  }
+}
+@keyframes rotate {
   0% {
-    border-color: white rgba(255, 255, 255, 0) rgba(255, 255, 255, 0) rgba(255, 255, 255, 0);
-  }
-  33% {
-    border-color: white white rgba(255, 255, 255, 0) rgba(255, 255, 255, 0);
-  }
-  66% {
-    border-color: white white white rgba(255, 255, 255, 0);
+    transform: rotate(0deg);
   }
   100% {
-    border-color: white white white white;
+    transform: rotate(360deg);
   }
-} */
-
-/* HTML: <div class="loader"></div> */
-.loader {
-  width: 40px;
-  height: 40px;
-  color: #f03355;
-  background:
-    conic-gradient(from  -45deg at top    20px left 50% ,#0000 ,currentColor 1deg 90deg,#0000 91deg),
-    conic-gradient(from   45deg at right  20px top  50% ,#0000 ,currentColor 1deg 90deg,#0000 91deg),
-    conic-gradient(from  135deg at bottom 20px left 50% ,#0000 ,currentColor 1deg 90deg,#0000 91deg),
-    conic-gradient(from -135deg at left   20px top  50% ,#0000 ,currentColor 1deg 90deg,#0000 91deg);
-  animation: l4 1.5s infinite cubic-bezier(0.3,1,0,1);
 }
-@keyframes l4 {
-   50%  {width:60px;height: 60px;transform: rotate(180deg)}
-   100% {transform: rotate(360deg)}
+
+.loader {
+  border: 10px blue;
+  border-radius: 50%;
+  border-top: 10px solid blueviolet;
+  width: 120px;
+  height: 120px;
+  animation: rotate 1s linear infinite;
+  position: absolute;
+}
+
+.loaderout {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  animation: fadeout 0.2s linear;
+  animation-delay: 2.5s;
+  animation-fill-mode: both;
+  width: 99vw;
+  height: 100vh;
 }
