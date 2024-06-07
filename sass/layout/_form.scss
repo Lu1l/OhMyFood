@@ -36,3 +36,48 @@
   .location i {
     padding-right: 20px;
   }
+  .restaurants {
+    background-color: #f6f6f6;
+  }
+
+  .restaurants-container {
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    max-width: 100%;
+    margin: 0 auto;
+  }
+
+  .restaurants-card {
+    background-color: #FFF;
+    border-radius: 10px;
+    width: 100%;
+    box-shadow: -2px 5px 16px -4px rgba(0, 0, 0, 0.301);
+    margin-bottom: 2em;
+    position: relative;
+  }
+
+  .restaurants-block {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-left: 15px;
+    padding-right: 20px;
+  }
+
+  .fa-heart {
+    font-size: 1.3em;
+  }
+  .fa-heart:hover {
+    animation: bgcolor 0.5s;
+    font-weight: 900;
+    background: -webkit-linear-gradient(13deg, #ff79da 0%, #ba62db 66%);
+    color: transparent;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    cursor: pointer;
+  }
+
+
+
+
