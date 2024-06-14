@@ -89,7 +89,7 @@
 
 .logo-img {
   display: flex;
-  width: 50%;
+  width: 100%;
   padding-top: 1rem;
   justify-content: center;
 }
@@ -97,7 +97,7 @@
   margin-left: -5em;
 }
 .logo-img.width {
-  width: 100%;
+  width: 50%;
 }
 
 .back {
@@ -155,6 +155,11 @@
   height: 100vh;
 }
 
+@media (min-width: 768px) {
+  .logo-img.width {
+    width: 25%;
+  }
+}
 .img-menu {
   width: 100%;
   height: 200px;
@@ -339,4 +344,128 @@ h4 {
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   cursor: pointer;
+}
+
+@media (min-width: 768px) {
+  .restaurants-container {
+    display: flex;
+    flex-direction: row;
+    gap: 30px;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+}
+.menu-container h1 {
+  font-family: "Shrikhand", cursive;
+}
+
+.menu-resto {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.menu-resto i {
+  font-size: 1.6em;
+  font-weight: 400;
+}
+
+.menu-categorie h2 {
+  text-transform: uppercase;
+  font-weight: 0;
+  font-size: 1.2em;
+}
+
+.menu-categorie h2::after {
+  content: "";
+  width: 50px;
+  height: 2px;
+  display: block;
+  position: absolute;
+  background-color: red;
+}
+
+.menu-card {
+  animation-fill-mode: both;
+  background-color: #fff;
+  border-radius: 20px;
+  padding: 15px 20px 0 10px;
+  margin-bottom: 15px;
+  position: relative;
+  z-index: 0;
+  width: 100%;
+  box-shadow: -1px 6px 10px 2px rgba(166, 166, 166, 0.34);
+}
+
+.menu-card_validate {
+  position: absolute;
+  text-align: center;
+  right: -100px;
+  top: 0;
+  width: 100px;
+  height: 95px;
+  background-color: red;
+  transition: 1s;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: 0.1s ease-in-out;
+}
+
+.menu-card_validate i {
+  color: #fff;
+  font-size: 1.5em;
+}
+
+.menu-card:hover {
+  cursor: pointer;
+}
+
+.menu-card:hover .menu-card_validate {
+  right: 0px;
+  transition: 0.7s ease-in-out;
+  z-index: 2;
+}
+
+.menu-card:hover .menu-card_validate i {
+  animation: rotate 0.4s linear;
+  animation-delay: 0.1S;
+}
+
+.menu-card_content {
+  width: 100%;
+  transition: 0.1s ease-in-out;
+}
+
+.menu-card_content:hover {
+  width: calc(100% - 100px);
+  transition: 0.7s ease-in-out;
+}
+
+.menu-card_title h3 {
+  margin: 0;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  margin-right: 10px;
+}
+
+.menu-card_title p {
+  margin: 0;
+  word-wrap: break-word;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.menu-card_text {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.menu-card_text p:nth-child(1) {
+  width: 100%;
+  white-space: nowrap;
+  overflow: hidden;
 }/*# sourceMappingURL=style.css.map */

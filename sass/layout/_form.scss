@@ -78,6 +78,17 @@
     cursor: pointer;
   }
 
+  
+  @media (min-width: 768px) {
+    .restaurants-container{
+      display: flex;
+      flex-direction: row;
+      gap: 30px;
+      flex-wrap: wrap;
+      justify-content: space-between;
+    }
+   
+  }
 
 
 

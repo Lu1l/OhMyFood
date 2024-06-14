@@ -6,14 +6,14 @@
 
 .logo-img {
   display: flex;
-  width: 50%;
+  width: 100%;
   padding-top: 1rem;
   justify-content: center;
   &.margin-left {
     margin-left: -5em;
   }
   &.width {
-    width: 100%;
+    width: 50%;
   }
 }
 
@@ -72,3 +72,12 @@
   width: 99vw;
   height: 100vh;
 }
+
+@media (min-width: 768px) {
+  .logo-img.width {
+    width: 25%;
+  }
+}
+
+
+    
