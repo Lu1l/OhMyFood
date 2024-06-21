@@ -41,6 +41,7 @@
   to {
     opacity: 0;
     position: absolute;
+    visibility: hidden;
   }
 }
 @keyframes rotate {
@@ -60,6 +61,7 @@
   height: 120px; 
   animation: rotate 1s linear 4;
   position: absolute;
+  
 }
 
 .loaderout {
@@ -71,6 +73,7 @@
   animation-fill-mode: both;
   width: 99vw;
   height: 100vh;
+  
 }
 
 @media (min-width: 768px) {
@@ -80,4 +83,4 @@
 }
 
 
-    
+  

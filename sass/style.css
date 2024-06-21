@@ -95,6 +95,7 @@
   to {
     opacity: 0;
     position: absolute;
+    visibility: hidden;
   }
 }
 @keyframes rotate {
@@ -141,6 +142,11 @@
   border-top-left-radius: 20px;
 }
 
+@media (min-width: 768px) {
+  .img-menu {
+    height: 600px;
+  }
+}
 h2 {
   text-align: center;
   text-decoration: none;
@@ -471,7 +477,7 @@ h4 {
   animation-fill-mode: both;
 }
 
-.dessert {
+.desserts {
   animation: fadein 1s linear;
   animation-delay: 1.5s;
   animation-fill-mode: both;
