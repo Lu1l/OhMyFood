@@ -20,11 +20,14 @@
     <link rel="stylesheet" href="./sass/style.css" />
 </head>
 <body>
- 
-  <div class="loaderout">
+ <div>
+ <div class="loaderout">
     <div class="loader"></div>
   </div>
 
+
+ </div>
+ 
     <header>
         <nav class="nav-logo">
              <img class="logo-img width" src="images/logo/ohmyfood.png" alt="Logo">
@@ -42,25 +45,41 @@
         <div class="background2">
             <h2>Réservez le menu qui vous convient</h2>
             <p>Découvrez des restaurants d'exception, sélectionnés par nos soins</p>
-            <button  class="btn violet white round btn-width">Explorer nos restaurants</button>
+            <div class="menu-btn">
+              <a href="#menu" class="btn">Explorer nos restaurant</a>
+            </div>
+          </div>
         </div>
     </section>
     <br>
     <section class="containter">
-      <h3>Fonctionnement</h3>
-      <div >
-        <button class="btn btn-fonction"><i class="fa-solid fa-mobile-screen"></i></i>&nbsp;Choissez un restaurant</button>
-        <button class="btn btn-fonction"><i class="fa-solid fa-list-ul"></i></i>&nbsp;Composer votre menu</button>
-        <button class="btn btn-fonction"><i class="fa-solid fa-store"></i></i>&nbsp;Dégustez au restaurant</button>
-      </div> 
-     
+      <div class="content">
+        <h2>Fonctionnement</h2>
+        <div class="list">
+          <div class="list_cards">
+            <p class="number">1</p>
+            <i class="fas fa-mobile-alt"></i>
+            <p>Choisissez un restaurant</p>
+          </div>
+          <div class="list_cards">
+            <p class="number">2</p>
+            <i class="fas fa-list-ul"></i>
+            <p>Composez votre menu</p>
+          </div>
+          <div class="list_cards">
+            <p class="number">3</p>
+            <i class="fas fa-store"></i>
+            <p>Dégustez au restaurant</p>
+          </div>
+        </div>
+      </div>
         
     </section>
 
-    <section href="menu" class="background background2">
+    <section class="background background2" id="menu">
         <h3>Restaurant</h3>
         
-        <div class="restaurants-containter"> 
+        <div class="restaurants-container"> 
             <div class="restaurants-card">
               <a href="La_palette_du_gout.html">
                 <img class="img-menu"
@@ -138,15 +157,17 @@
     </section>
 
     <footer class="white">
-      <div class="background dark_grey">
+      <div class="flex-item">
+        <div class="background dark_grey">
         <h4 class="margin-left"><i><b>ohmyfood</b></i><h4>
-       
         <p class="margin-left"><i class="fa-solid fa-utensils">&nbsp;&nbsp;</i>Proposer un restautant</p>
         <p class="margin-left"><i class="fa-solid fa-handshake-angle">&nbsp;</i>Devenir partenaire</p>
         <p class="margin-left">Mention légal</p>
         <p class="margin-left">Contact</p>
     </div>
 
+      </div>
+      
     </footer>
 </body>
 </html>

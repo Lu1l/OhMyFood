@@ -1,66 +1,31 @@
+.menu-btn {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  margin-top: 4em;
+  margin-bottom: 4em;
+}
+.menu-btn .btn {
+  display: block;
+  width: 100%;
+  max-width: 16em;
+}
+
 .btn {
-    padding: 15px;
-    border: none;
-    width: 300px;
-    background-color: lightgrey;
-    color: black;
-    border-radius: 15px;
-    margin-bottom: 0.1rem;
-  
-    &.violet {
-      background-color: #9747FF;
-    }
-    &.white { 
-      color: white;
-    }&.left{
-      text-align: left;
-    }
-    &.round{
-      border-radius: 30px;
-    }
-    &.btn-width{
-      width:200px;
-    }
-    &.no-padding{
-      margin-top: 1%;
-      padding: 2%;
-    }
-     
-    
-   
-  }
- /* .btn-violet {
-    border: 1px solid;
-    overflow: hidden;
-    position: relative;
-    
-    span {
-      z-index: 20;
-    }
-    
-    &:after {
-      background: #fff;
-      content: "";
-      height: 155px;
-      left: -75px;
-      opacity: .2;
-      position: absolute;
-      top: -50px;
-      transform: rotate(35deg);
-      transition: all 550ms cubic-bezier(0.19, 1, 0.22, 1);
-      width: 50px;
-      z-index: -10;
-    }
-  }
-  
-  .btn-violet:hover {
-    
-    &:after {
-      left: 120%;
-      transition: all 550ms cubic-bezier(0.19, 1, 0.22, 1);
-    }
-  }*/
-  
+  background: #ff79da;
+  background: linear-gradient(180deg, #ff79da 0%, #ba62db 100%);
+  box-shadow: 1px 11px 14px 0px rgba(130, 130, 130, 0.38);
+  padding: 20px;
+  color: #FFF;
+  font-family: "Roboto";
+  text-decoration: none;
+  border-radius: 50px;
+  transition: 500ms;
+}
+.btn:hover {
+  background: linear-gradient(180deg, #ff99e2 0%, #dc7bff 100%);
+  box-shadow: 1px 11px 14px 0px rgba(109, 109, 109, 0.699);
+}
 
   @media (max-width: 1024px) {
 
