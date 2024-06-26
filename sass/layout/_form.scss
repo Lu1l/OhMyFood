@@ -44,7 +44,7 @@
     display: flex;
     justify-content: space-evenly;
     flex-wrap: wrap;
-    max-width: 860px;
+    max-width: 1440px;
     margin: 0 auto;
   }
 
@@ -83,14 +83,20 @@
     .restaurants-container{
       display: flex;
       flex-direction: row;
-      gap: 30px;
       flex-wrap: wrap;
       justify-content: space-between;
-
-     
     }
-    footer {
-      align-items: flex-start;
+    .restaurants-card {
+      width: 100%;
+    }
+
+    #Logo{
+      
+    }
+    .inline{
+      display: flex;
+      flex-direction: row-reverse;
+      justify-content: flex-start;
     }
     
   }

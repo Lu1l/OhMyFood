@@ -48,3 +48,13 @@
   .list_cards:hover i {
     color: #9356DC;
   }
+
+  
+  @media (min-width: 768px) {
+    .list{
+      flex-direction: row;
+      justify-content: center;
+      gap: 50px;
+    }
+    
+  }
