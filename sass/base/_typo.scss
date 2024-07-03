@@ -1,6 +1,7 @@
 
 h2 {
-  
+  display: flex;
+  justify-content: center;
     text-decoration: none;
   }
 
@@ -87,3 +88,14 @@ h2 {
   padding-top: 5px;
   padding-bottom: 15px;
 }
+
+@media (min-width: 768px) {
+  h2 {
+    display: flex;
+    justify-content: center;
+    text-decoration: none;
+  }
+  
+}
+
+  

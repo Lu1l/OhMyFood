@@ -147,6 +147,8 @@
   }
 }
 h2 {
+  display: flex;
+  justify-content: center;
   text-decoration: none;
 }
 
@@ -236,6 +238,13 @@ h4 {
   padding-bottom: 15px;
 }
 
+@media (min-width: 768px) {
+  h2 {
+    display: flex;
+    justify-content: center;
+    text-decoration: none;
+  }
+}
 .containter {
   text-align: center;
   margin: 0 auto;
@@ -328,18 +337,19 @@ h4 {
     justify-content: space-between;
   }
   .restaurants-card {
-    width: 100%;
+    width: 45%;
+    justify-content: space-evenly;
+  }
+  #footer-title {
+    display: flex;
+    flex-direction: row-reverse;
   }
   .inline {
     display: flex;
-    flex-direction: row-reverse;
-    justify-content: flex-start;
   }
-}
-@media (min-width: 768px) {
-  .flex-item {
-    flex: 2;
-    width: 100%;
+  .content {
+    width: 50%;
+    margin-left: 40rem;
   }
 }
 .menu-container h1 {

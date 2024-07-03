@@ -87,18 +87,25 @@
       justify-content: space-between;
     }
     .restaurants-card {
-      width: 100%;
+      width: 45%;
+      justify-content: space-evenly;
     }
 
-    #Logo{
+    #footer-title{
+      display: flex;
+      flex-direction: row-reverse;
       
     }
     .inline{
       display: flex;
-      flex-direction: row-reverse;
-      justify-content: flex-start;
+
+      
+     
     }
-    
+    .content{
+      width: 50%;
+      margin-left: 40rem;
+    };
   }
 
 
