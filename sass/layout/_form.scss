@@ -96,6 +96,19 @@
     position: relative;
   }
 
+  .restaurants-card.new::after {
+    content: "Nouveau";
+    position: absolute;
+    top: 5%;
+    right: 5%;
+    font-family: "Roboto";
+    font-weight: 700;
+    background-color: #99E2D0;
+    color: #008766;
+    padding: 10px;
+    border-radius: 2px;
+  }
+
   .restaurants-block {
     display: flex;
     align-items: center;
@@ -116,6 +129,9 @@
     -webkit-text-fill-color: transparent;
     cursor: pointer;
   }
+  .card{
+    transform: translate(0px, -60px);
+ }
   
   
   @media (min-width: 768px) {
@@ -142,7 +158,10 @@
       max-width: 1400px;
       margin: 0 auto;
   }
-      
+  .card{
+     transform: translate(0px, -60px);
+  }
+ 
     
   }
 

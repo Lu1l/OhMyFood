@@ -1,7 +1,7 @@
 
 h2 {
   display: flex;
-  justify-content: center;
+ 
     text-decoration: none;
   }
 
@@ -89,10 +89,14 @@ h2 {
   padding-bottom: 15px;
 }
 
+.title{
+  font-family: "Shrikhand", cursive;
+}
+
 @media (min-width: 768px) {
   h2 {
     display: flex;
-    justify-content: center;
+    
     text-decoration: none;
   }
   
