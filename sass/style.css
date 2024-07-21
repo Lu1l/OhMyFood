@@ -347,10 +347,6 @@ h4 {
   .inline {
     display: flex;
   }
-  .content {
-    width: 50%;
-    margin-left: 40rem;
-  }
 }
 .menu-container h1 {
   font-family: "Shrikhand", cursive;
